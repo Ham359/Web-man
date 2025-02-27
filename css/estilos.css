@@ -6,12 +6,12 @@
 
 body {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-Euy1BLgOqj8%2FTpSTAh7CZBI%2FAAAAAAAABKY%2FpRRXWIo-83g%2Fs1600%2Ffondo%252B%2525252811%25252529%252Bcopia.jpg&f=1&nofb=1&ipt=3ba45d911a16b3eeb30618ead5f12d6aa5428e49ad6b26fb8cc79a86b57732fb&ipo=images);
-    background-size: cober;
+    background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    color: white;
+    color: aliceblue;
 }
 
 header{
