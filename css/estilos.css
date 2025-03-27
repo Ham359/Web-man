@@ -1,7 +1,20 @@
+
+.image-text-container {
+    overflow: auto; /* Asegura que el contenedor se ajuste a su contenido flotante */
+}
+
 .imgine {
-    max-width:30%;
-    max-height:10% ;
-    height: auto;
+    float: left; /* Hace que la imagen flote a la izquierda del párrafo */
+    margin-right: 15px; /* Añade un margen derecho para separar la imagen del texto */
+    max-width: 20%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagina {
+    float: left; /* Hace que la imagen flote a la izquierda del párrafo */
+    margin-right: 1%; /* Añade un margen derecho para separar la imagen del texto */
+    max-width: 30%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .boton{
@@ -24,21 +37,37 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
+    font-family: Arial, sans-serif;
     /*background-repeat: no-repeat;*/
     margin: 0;
-    color: aliceblue;
-    margin: 5% 15% ;/* Arriba, derecha, abajo, izquierda */
-    text-align: center;
+    color: rgb(253, 253, 253);
+    margin: 0;/* Arriba, derecha, abajo, izquierda */
+    text-align: left;
 }
 
 header{
-    background-color: aqua;
-    color: rgb(17, 125, 219);
+    /*background-image: rgba(187, 24, 24, 0.616);
+    background-size: 10%;*/
+    padding: 1%;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-header.dos-header{
-    background-color: seashell;
-    color:rgb(223, 80, 80);
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0;
+}
+
+nav ul li a{
+    color: rgb(226, 165, 213);
+    text-decoration:none;
+    font-weight: bolder;
+    margin: 10px;
 }
 
 table{
@@ -50,3 +79,50 @@ table{
 th,td{
     text-align: center;
 }
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgb(240, 119, 7);
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.encabezado{
+    padding: 20px; /*espacio entre parrafos*/
+    color: rgb(0, 0, 0);
+    box-shadow:  rgb(214, 104, 190);
+    margin-bottom: 20px;
+    margin: 0px auto; /*respeto a la parte de arriba y abajo*/
+    /*width:0 ; maneja el tamaño haciendo que se pueda salir del body normal*/
+}
+
+.contenedor-two{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(214, 104, 190);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-two:nth-child(odd){
+    background: linear-gradient(to bottom right, #ffcccc, #f5f5f5);
+}
+
+.contenedor-two:nth-child(even){
+    background: linear-gradient(to bottom right, #bce4be, #f5f5f5);
+}
+
+#proyectos{
+    background: linear-gradient(to bottom right, #b0b9e4, #f5f5f5);
+}
+
+#contacto{
+    background: linear-gradient(to bottom right, #d3a1e7, #f5f5f5);
+}
+
+#cabeza{
+    background: linear-gradient(to bottom right, #ddcaca, #f5f5f5);
+}
+
